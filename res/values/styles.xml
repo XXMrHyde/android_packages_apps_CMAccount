@@ -15,7 +15,9 @@
      limitations under the License.
 -->
 <resources>
-    <style name="Theme.CMAccount" parent="@android:style/Theme.Holo.Light">
+    <style name="Theme.CMAccount1" parent="@android:style/Theme.Holo.Light" />
+
+    <style name="Theme.CMAccount" parent="@style/Theme.CMAccount1">
         <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
         <item name="android:actionMenuTextColor">@android:color/holo_blue_light</item>
         <item name="android:actionMenuTextAppearance">@style/ActionButton</item>
@@ -27,7 +29,9 @@
         <item name="android:windowActionBarOverlay">true</item>
     </style>
 
-    <style name="Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <style name="Widget.ActionBar1" parent="@android:style/Widget.Holo.Light.ActionBar" />
+
+    <style name="Widget.ActionBar" parent="@style/Widget.ActionBar1">
         <item name="android:background">@drawable/ab_bg</item>
         <item name="android:displayOptions">disableHome|showCustom</item>
         <item name="android:customNavigationLayout">@layout/action_bar_nav</item>
